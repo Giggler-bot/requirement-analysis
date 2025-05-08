@@ -45,11 +45,9 @@ Requirement Analysis involves a set of structured activities that help define an
   Ensuring requirements are correct, complete, and agreed upon.
 
   ## Types of Requirements
-
 In software development, requirements are typically categorized into two main types: Functional and Non-functional. Both are essential for building a successful and complete system.
 
 ### Functional Requirements
-
 Functional requirements define **what the system should do** — the specific behaviors, functions, or features the software must support.
 
 **Examples for a Booking Management Project:**
@@ -60,7 +58,6 @@ Functional requirements define **what the system should do** — the specific be
 - The system prevents double booking for the same slot.
 
 ### Non-functional Requirements
-
 Non-functional requirements describe **how the system performs** its functions. These include performance, usability, reliability, and other quality attributes.
 
 **Examples for a Booking Management Project:**
@@ -71,7 +68,6 @@ Non-functional requirements describe **how the system performs** its functions. 
 - The interface must be accessible on both mobile and desktop devices.
 
 ## Use Case Diagrams
-
 A Use Case Diagram is a visual representation that shows how different types of users (actors) interact with a system. It helps in understanding the functional requirements by identifying major interactions between users and the system.
 
 ### Benefits of Use Case Diagrams
@@ -81,10 +77,29 @@ A Use Case Diagram is a visual representation that shows how different types of 
 - Serves as a foundation for further system design.
 
 ### Use Case Diagram for Booking Management System
-
 The diagram below shows the primary actors and use cases involved in a booking management system.
 
 ![Booking System Use Case Diagram](![Image](https://github.com/user-attachments/assets/db62dcb1-0a46-402b-8425-17e8ce943d06))
+
+## Acceptance Criteria
+Acceptance Criteria are specific, measurable conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholders. They define the boundaries of a user story or feature and provide a clear basis for testing and validation.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+- **Clarifies Expectations:** Ensures all stakeholders have a shared understanding of what success looks like for a given feature.
+- **Guides Development:** Helps developers know exactly what to build and when the work is complete.
+- **Enables Testing:** Forms the basis for test cases and quality assurance activities.
+- **Prevents Scope Creep:** Defines what is in and out of scope for a feature, reducing miscommunication and rework.
+
+### Example: Acceptance Criteria for Checkout Feature
+
+**Feature:** Checkout (Booking Management System)
+
+**Acceptance Criteria:**
+- The user must be able to review their selected booking details before payment.
+- The system must display the total cost including taxes and fees.
+- The user must be able to enter and validate payment information securely.
+- A confirmation message must be displayed after successful payment.
+- An email confirmation must be sent within 5 minutes of successful checkout.
 
 
 
