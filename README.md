@@ -79,7 +79,7 @@ A Use Case Diagram is a visual representation that shows how different types of 
 ### Use Case Diagram for Booking Management System
 The diagram below shows the primary actors and use cases involved in a booking management system.
 
-![Booking System Use Case Diagram](![Image](![Image](https://github.com/user-attachments/assets/38d95498-2c74-4730-b4cb-39bc42b550cc))
+(![Booking System Use Case Diagram](alx-booking-uc.png))
 
 ## Acceptance Criteria
 Acceptance Criteria are specific, measurable conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholders. They define the boundaries of a user story or feature and provide a clear basis for testing and validation.
